@@ -1,0 +1,51 @@
+
+h1 {
+  color: red;
+  font-size: 32px;
+}
+
+h3 {
+  color: green;
+  font-style: italic;
+}
+
+h2 {
+  color: red;
+  font-size: 26px;
+}
+
+ol li, ul li {
+  font-size: 18px;
+  color: #333;
+}
+
+ul {
+  color: brown;
+}
+
+.highlight {
+  background-color: yellow;
+  font-weight: bold;
+}
+
+.note {
+  color: brown;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.footer {
+  color: red;
+  font-style: italic;
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+.visit-link {
+  display: inline-block;
+  background-color: yellow;
+  text-decoration: none;
+  color: black;
+  padding: 5px;
+  margin-top: 10px;
+}
