@@ -1,0 +1,152 @@
+
+body{
+    background-color: yellow;
+    padding-left: 400px;
+}
+h2{
+    margin-left: 5%;
+    margin-top: 2%;
+}
+.container1{
+    display: flex;
+    gap: 40px;
+}
+.box1{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(96, 96, 99);
+    border: 2px solid rgb(115, 109, 109);
+    transform: skew(30deg);
+    animation: first 3s ease-in 0s normal infinite;
+}
+.container1::before{
+    content: '1.';
+    font-size: 20px;
+    
+}
+
+@keyframes first {
+    0%{transform: skewX(30deg);
+    }
+    50%{
+        transform: skewX(-30deg);
+    }
+    100%{
+        transform: skewX(30deg);
+    }
+}
+.container2 {
+    display: flex;
+    margin-top: 50px;
+    gap: 40px;
+}
+.box2{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(71, 70, 70);
+    border: 2px solid rgb(47, 44, 44);
+    transform: skew(-30deg);
+    animation: second 3s ease-in 0s normal infinite;
+}
+.container2::before
+{
+    content: '2.';
+    font-size: 20px;
+}
+@keyframes second {
+    0%{transform: skewY(-25deg);
+    }
+    50%{
+        transform: skewY(25deg);
+    }
+    100%{
+        transform: skewY(-25deg);
+    }
+}
+.container3{
+    display: flex;
+    margin-top: 50px;
+    gap: 40px;
+}
+.box3{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(63, 113, 132);
+    border: 2px solid rgb(69, 100, 112);
+    transform: rotate(360deg);
+    animation: third 1.8s ease-in 0s normal infinite
+}
+.container3::before{
+    content: '3.';
+    font-size: 20px;
+}
+@keyframes third {
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
+}
+.container4{
+    display: flex;
+    margin-top: 50px;
+    gap: 40px;
+}
+.box4{
+    height: 50px;
+    width: 50px;
+    background-color: aqua;
+    border: 2px solid rgb(68, 163, 163);
+    transform: scale(1);
+    animation: fourth 1.8s ease-in 0s normal infinite;
+}
+.container4::before{
+    content: '4.';
+    font-size: 20px;
+}
+@keyframes fourth {
+    0%{transform: scale(1);
+    }
+    50%{transform: scale(0.5);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+.box5{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(146, 31, 31);
+    border: 2px solid rgb(97, 22, 22);
+    transform: scale(1);
+    animation: fifth 1.8s ease-in 0s normal infinite;
+}
+
+@keyframes fifth {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(0.5);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+.box6{
+    height: 50px;
+    width: 50px;
+    background-color: green;
+    border: 2px solid rgb(59, 145, 59);
+    transform: rotate(90deg);
+    animation: sixth 2.8s ease-in 0s normal infinite;
+}
+
+@keyframes sixth {
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(90deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}

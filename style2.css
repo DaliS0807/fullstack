@@ -1,0 +1,71 @@
+
+body{
+    background-color: yellow;
+    padding: 50px;
+    margin-left: 150px;
+}
+.box1{
+    height: 70px;
+    width: 70px;
+    background-color: green;
+    transition: all;
+    transition-duration: 2s;
+}
+.box1:hover{
+    width: 180px;
+}
+.box2{
+    margin: 5px;
+    height: 70px;
+    width: 70px;
+    background-color: green;
+    transition: all;
+    transition-duration: 2s;
+}
+.box2:hover
+{
+    width: 150px;
+    height: 200px;
+}
+.box3{
+    margin: 5px;
+    height: 70px;
+    width: 70px;
+    border: 2px solid green;
+    background-color: green;
+    transition: all;
+    transition-duration: 2s;
+}
+.box3:hover
+{
+    width: 180px;
+}
+.box4{
+    margin: 5px;
+    height: 70px;
+    width: 70px;
+    border: 2px solid green;
+    background-color: green;
+}
+
+.box5{
+    margin: 5px;
+    height: 70px;
+    width: 70px;
+    border: 2px solid green;
+    background-color: green;
+}
+.box6{
+    margin: 5px;
+    height: 70px;
+    width: 70px;
+    border: 2px solid green;
+    background-color: green;
+}
+.box7{
+    margin: 5px;
+    height: 70px;
+    width: 70px;
+    border:2px solid green;
+    background-color: green;
+}
